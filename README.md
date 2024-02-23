@@ -1,24 +1,13 @@
-# README
+# Stimulus Starter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a starter Rails 7.1 app that uses stimulus and tailwindcss.
 
-Things you may want to cover:
+## How to run
 
-* Ruby version
+In separate terminals, run:
 
-* System dependencies
+```
+rails s
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rails tailwindcss:watch
+```
